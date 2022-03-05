@@ -47,6 +47,8 @@ h1, p {
   justify-content: center;
   height: 100vh;
   padding-bottom: 5vh;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .carousel-image {
@@ -120,5 +122,9 @@ h1, p {
   
   .btn:last-of-type {
     margin-right: 2em;
+  }
+
+  .carousel {
+    max-width: 768px;
   }
 }
