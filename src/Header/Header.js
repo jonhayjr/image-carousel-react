@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import TitleContext from '../TitleContext';
 
-const Header = ({title}) => {
+const Header = () => {
+ const title = useContext(TitleContext);
   return (
     <header className="header">
         <h1 className="header__heading">{title}</h1>
