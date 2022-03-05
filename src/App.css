@@ -25,25 +25,25 @@ h1, p {
 
 /*Layout*/
 .header {
+  width: 100%;
   text-align: center;
   text-shadow: 2px 2px var(--primary-color);
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 1em;
+  padding: 2em;
 }
 
 .carousel {
-  max-width: 450px;
-  margin: 1em auto;
+  margin: 2em;
   position: relative;
 }
 
 .carousel-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  min-height: 100%;
   margin: 0 auto;
   border-radius: 5px;
-  border: 5px solid var(--primary-color)
+  border: 10px solid var(--primary-color)
 }
 
 .carousel-btns-group {
@@ -78,11 +78,11 @@ h1, p {
 }
 
 .btn:first-of-type {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .btn:last-of-type {
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 
@@ -91,8 +91,12 @@ h1, p {
   h1 {
     font-size: 45px;
   }
-
-  .carousel {
-    max-width: 650px;
+  
+  .btn:first-of-type {
+    margin-left: 2em;
+  }
+  
+  .btn:last-of-type {
+    margin-right: 2em;
   }
 }
